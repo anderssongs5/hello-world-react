@@ -33,7 +33,7 @@ class Counter extends Component {
 
 class NumberCounter extends Component {
   render() {
-    console.log("NumberCounter render()")
+    console.log("NumberCounter render(" + this.props.number + ")")
     return <span>{this.props.number}</span>
   }
 }
